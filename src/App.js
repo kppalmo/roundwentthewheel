@@ -1,25 +1,21 @@
 import './App.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Layout } from './comp/Layout';
-import { Home } from './comp/Home';
-import { Caro } from './comp/Caro';
-import { Banner } from './comp/PageBanner';
-import { Awards } from './comp/Awards';
-import NavigationBar from './comp/NavBar';
+import { BrowserRouter , Route, Switch } from 'react-router-dom';
+import { MainPage } from './comp/MainPage';
+import { Cast } from './comp/Cast';
 
 
 class App extends React.Component{
   render(){
     return(
       <React.Fragment >
-        <NavigationBar/>
-        <Banner/>
-        <Layout>
-          <Caro/>
-          <Home/>
-          <Awards/>
-        </Layout>
+        <BrowserRouter>
+          <Switch>
+            <Route exact path="/" component={MainPage} />
+            <Route exact path="/cast" component={Cast} />
+          </Switch>
+        </BrowserRouter>
       </React.Fragment>
     )
   }
