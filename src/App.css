@@ -2,9 +2,63 @@
   text-align: center;
 }
 
+.wText{
+  color: white;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.CenterText {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 10px;
+}
+.awardText{
+  margin-left: 15%;
+
+}.awardText2{
+  margin-left: 5%;
+
+}
+.CenterText2 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.CenterText3{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.CenterImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.Scale1{
+  margin-top:25px;
+  margin-bottom: 10px;
+  width:80%;
+  height:auto;
+  box-shadow:  6px 3px grey;
+
+}
+.Scale2{
+  margin-top:15px;
+  width:100%;
+  height:auto;
+}
+.Scale3{
+  margin-top:20px;
+  margin-bottom: 20px;
+
+}
+
+.bgBlue{
+  background-color: #018ac0
+  ;
 }
 
 @media (prefers-reduced-motion: no-preference) {
