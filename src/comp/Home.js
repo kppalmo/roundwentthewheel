@@ -1,21 +1,26 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Image} from 'react-bootstrap';
-import img from '../img/RWTW1.png';
+
 
 const Styles = styled.div`
 .f1{
     text-align: center;
     margin-top: 50px;
 }
-.f2{
-    width:30%;
+.f1C{
+    text-align: center;
+    margin-top: 50px;
+    color:#009dff;
+    font-weight: bold;
+
+}
+.sty2{
+    width:35%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top:25px;
     margin-bottom:20px;
-    border:solid;
 }
 
 
@@ -23,6 +28,9 @@ const Styles = styled.div`
 
 export const Home = ()  => (
     <Styles>
+        <h2 class="f1C">
+            THE FUTURE BEGINS…AGAIN!
+        </h2>
         <h3 class="f1">
             EARTH. THE NEAR FUTURE.
             WHEN TECHNOLOGY BRINGS THE WORLD TO 
@@ -44,7 +52,6 @@ export const Home = ()  => (
             able to visualize the younger actors Gilman 
             and Elgrabli leading a revolution.
         </p>
-        <Image class="f2"src={img} alt="image" />
     </Styles>
     
 )
