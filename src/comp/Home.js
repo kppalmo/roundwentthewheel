@@ -22,6 +22,14 @@ const Styles = styled.div`
     margin-top:25px;
     margin-bottom:20px;
 }
+.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:25px;
+    background-color:#009dff;
+    color:white;
+}
 
 
 `
@@ -29,7 +37,7 @@ const Styles = styled.div`
 export const Home = ()  => (
     <Styles>
         <h2 class="f1C">
-            THE FUTURE BEGINS…AGAIN!
+            THE FUTURE BEGINS . . . AGAIN!
         </h2>
         <h3 class="f1">
             EARTH. THE NEAR FUTURE.
@@ -52,6 +60,7 @@ export const Home = ()  => (
             able to visualize the younger actors Gilman 
             and Elgrabli leading a revolution.
         </p>
+        <button class="button">Learn More!</button>
     </Styles>
     
 )
