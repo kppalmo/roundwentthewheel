@@ -13,7 +13,7 @@ const Styles = styled.div`
 .txtS{
     text-align:center;
     font-family:Monoton;
-    color:yellow;
+    color:#FFD700;
     font-size:50px;
     margin-top:-.5em;
 

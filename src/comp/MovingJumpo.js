@@ -17,7 +17,7 @@ const Styles = styled.div`
     text-align:center;
     font-family:Monoton;
     color:black;
-    font-size:60px;
+    font-size:55px;
     margin-top:1em;
 
 }
@@ -26,7 +26,7 @@ const Styles = styled.div`
 export const MovingJumbo = props => (
     <Styles>
         <Jumbotron className="jtron">
-            <h2 class="txtS">{props.title}</h2>
+            <h4 class="txtS">{props.title}</h4>
         </Jumbotron> 
     </Styles>
 )
