@@ -17,6 +17,38 @@
     "styled-components": "^5.3.0",
     "web-vitals": "^1.1.2"
   },
+  "babel": {
+    "env": {
+      "development": {
+        "presets": [
+          "next/babel"
+        ],
+        "plugins": [
+          [
+            "styled-components",
+            {
+              "ssr": true,
+              "displayName": true
+            }
+          ]
+        ]
+      },
+      "production": {
+        "presets": [
+          "next/babel"
+        ],
+        "plugins": [
+          [
+            "styled-components",
+            {
+              "ssr": true,
+              "displayName": false
+            }
+          ]
+        ]
+      }
+    }
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -42,6 +74,8 @@
     ]
   },
   "devDependencies": {
+    "@types/styled-components": "5.1.9",
+    "babel-plugin-styled-components": "^1.12.0",
     "popper.js": "^1.16.1"
   }
 }

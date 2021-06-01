@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Image, Container } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import  NavigationBar  from './NavBar';
 import { Banner } from './PageBanner';
 import { Layout } from './Layout';
@@ -15,9 +15,9 @@ import cast8 from '../img/cast/cast8.jpg';
 import cast9 from '../img/cast/cast9.jpg';
 
 
-const Styles = styled.div `
+const Styles = styled.aside `
 .re{
-    width:35%;
+    width:35% !important;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -36,14 +36,15 @@ const Styles = styled.div `
     color:#009dff;
 }
 
+
 `
 
 export const Cast = props => (
     <Styles>
         <NavigationBar/>
-        <Banner/>
+        <Banner/>        
         <Layout>
-            <Image class="re"  src={cast1}/>
+            <Image src={cast1} className="re" alt="test"/>
             <h2 class="txtCC">RAFEAL JORDAN</h2>
             <p class="txtC">
             RAFAEL JORDAN* (David) NEW YORK: Caesar and Cleopatra 
@@ -60,7 +61,7 @@ export const Cast = props => (
               Equity Association.
             </p>
 
-            <Image class="re"  src={cast2}/>
+            <Image src={cast2} className="re"/>
             <h2 class="txtCC">COLTRANE GILMAN </h2>
             <p class="txtC">
             COLTRANE GILMAN (Boy) is making his professional theatre debut in 
@@ -73,7 +74,7 @@ export const Cast = props => (
              the Wheel. 
             </p>
 
-            <Image class="re"  src={cast3}/>
+            <Image src={cast3} className="re"/>
             <h2 class="txtCC">MARIE ELÉNA O’BRIEN  </h2>
             <p class="txtC">
             MARIE ELÉNA O’BRIEN* (Marta) A frequent contributor to The PlayGround Experiment, 
@@ -83,7 +84,7 @@ export const Cast = props => (
              LINES’ and ‘GUNS AND AMMUNITION’. *Appearing Courtesy of Actors’ Equity Association.
             </p>
 
-            <Image class="re"  src={cast4}/>
+            <Image src={cast4} className="re"/>
             <h2 class="txtCC">MICHAEL GNAT </h2>
             <p class="txtC">
             MICHAEL GNAT* (Anton) recently toured Europe in Sam Graber’s Shooter (dir. Katrin Hilbe, 
@@ -97,7 +98,7 @@ export const Cast = props => (
              SAG–AFTRA. *Appearing Courtesy of Actors’ Equity Association. 
             </p>
 
-            <Image class="re"  src={cast5}/>
+            <Image src={cast5} className="re"/>
             <h2 class="txtCC">CHRISTINA TOTH </h2>
             <p class="txtC">
             CHRISTINA TOTH (Eloise) Latest projects include Orange Is The New Black Seasons 6 and 7 
@@ -107,8 +108,7 @@ export const Cast = props => (
               revival production of The Woolgatherer (LaTea Theatre) directed by Chazz Palminteri
             </p>
 
-
-            <Image class="re"  src={cast6}/>
+            <Image src={cast6} className="re"/>
             <h2 class="txtCC">VICTOR Y. CHEN (Dake) </h2>
             <p class="txtC">
             VICTOR Y. CHEN (Dake) is an actor, writer and singer who recently graduated from
@@ -118,7 +118,7 @@ export const Cast = props => (
              unite us. 
             </p>
 
-            <Image class="re"  src={cast7}/>
+            <Image src={cast7} className="re"/>
             <h2 class="txtCC">MOIRA MCAULIFFE </h2>
             <p class="txtC">
             MOIRA MCAULIFFE (Katherine) is a New York-based actor and singer. Alumnus of 
@@ -131,7 +131,7 @@ export const Cast = props => (
              Musical”.
             </p>
 
-            <Image class="re"  src={cast8}/>
+            <Image src={cast8} className="re"/>
             <h2 class="txtCC">ORIAH ELGRABLI</h2>
             <p class="txtC">
             ORIAH ELGRABLI (Girl) is thrilled to join this production. Her theater credits 
@@ -142,7 +142,7 @@ export const Cast = props => (
              Mysteries at the Museum. Oriah is represented by CESD.
             </p>
 
-            <Image class="re"  src={cast9}/>
+            <Image src={cast9} className="re"/>
             <h2 class="txtCC">ARIELA ROZENTUL </h2>
             <p class="txtC">
             ARIELA ROZENTUL (Girl–Alternate) is thrilled and grateful 
@@ -155,8 +155,7 @@ export const Cast = props => (
              Retry, Lollitrap, Nightmare As a Child. Thank you mummy & 
              daddy, family, friends! Instagram @arielarozentul_artist
             </p>
-            
-            
+             
         </Layout>
     </Styles>
 )
