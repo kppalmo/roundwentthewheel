@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Image } from 'react-bootstrap';
-import  NavigationBar  from './NavBar';
-import { Banner } from './PageBanner';
 import { Layout } from './Layout';
 import cast1 from '../img/cast/cast1.jpg';
 import cast2 from '../img/cast/cast2.jpg';
@@ -40,9 +38,7 @@ const Styles = styled.aside `
 `
 
 export const Cast = props => (
-    <Styles>
-        <NavigationBar/>
-        <Banner/>        
+    <Styles>       
         <Layout>
             <Image src={cast1} className="re" alt="test"/>
             <h2 class="txtCC">RAFEAL JORDAN</h2>

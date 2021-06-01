@@ -8,12 +8,13 @@ const Styles = styled.div`
     color:#ccc;
     height:200px;
     position:relative;
+    margin-top:-.5em;
 }
 .txtS{
     text-align:center;
     font-family:Monoton;
     color:yellow;
-    font-size:65px;
+    font-size:60px;
 
 }
 `
