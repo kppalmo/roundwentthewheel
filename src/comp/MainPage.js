@@ -6,11 +6,11 @@ import { Caro } from './Caro';
 import { Awards } from './Awards';
 
 export const MainPage = props =>(
-    <>
-        <Layout>
-          <Caro/>
-          <Home/>
-          <Awards/>
-        </Layout>
-    </>
+  <>
+    <Layout>
+      <Caro/>
+      <Home/>
+      <Awards/>
+    </Layout>
+  </>
 )
