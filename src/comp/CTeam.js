@@ -19,7 +19,7 @@ const Styles = styled.div `
     border-color:#009dff;
 }
 .imgS1{
-    width:300px
+    width:350px;
     margin-bottom:2em;
     margin-top:2em;
 }
@@ -29,7 +29,7 @@ const Styles = styled.div `
     margin-bottom:2em;
 }
 .imgS3{
-    width:350px
+    width:325px
 }
 .imgS4{
     width:350px
@@ -169,7 +169,7 @@ export const CTeam = props => (
              </p>
             </Col>
             <Col  lg={true}>            
-             <Image  roundedCircle src={cteam6} alt="test" className="imgS6 mainImgStyle"/>
+             <Image  roundedCircle src={cteam6} alt="test" className="imgS2 mainImgStyle"/>
             </Col>
         </Row>
 

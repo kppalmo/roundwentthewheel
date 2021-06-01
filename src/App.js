@@ -4,6 +4,7 @@ import { BrowserRouter , Route, Switch } from 'react-router-dom';
 import { MainPage } from './comp/MainPage';
 import { Cast } from './comp/Cast';
 import { CTeam } from './comp/CTeam';
+import { ImgView } from './comp/ImgView';
 import  NavigationBar  from './comp/NavBar';
 import { Banner } from './comp/PageBanner';
 import { Footer } from './comp/Footer';
@@ -20,6 +21,7 @@ class App extends React.Component{
             <Route exact path="/" component={MainPage} />
             <Route exact path="/cast" component={Cast} />
             <Route exact path="/creativeteam" component={CTeam} />
+            <Route exact path="/photos" component={ImgView} />
           </Switch>
         </BrowserRouter>
         <Footer/>
