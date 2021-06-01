@@ -5,26 +5,43 @@ import { Row, Col, Image } from 'react-bootstrap';
 import  cteam1  from '../img/cTeam/cteam1.jpg';
 import cteam2 from '../img/cTeam/cteam2.jpg';
 import cteam3 from '../img/cTeam/cteam3.jpeg';
+import cteam4 from '../img/cTeam/cteam4.jpg';
+import cteam5 from '../img/cTeam/cteam5.jpg';
+import cteam6 from '../img/cTeam/cteam6.jpg';
 
 const Styles = styled.div `
-.imgS{
-    width:300px
+
+.mainImgStyle{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom:2em;
     border:solid;
     border-color:#009dff;
 }
+.imgS1{
+    width:300px
+    margin-bottom:2em;
+    margin-top:2em;
+}
 .imgS2{
     width:450px
-    display: block;
-    margin-top:3em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top:6em;
     margin-bottom:2em;
-    border:solid;
-    border-color:#009dff;
+}
+.imgS3{
+    width:350px
+}
+.imgS4{
+    width:350px
+    margin-top:2em;
+}
+.imgS5{
+    width:350px
+    margin-top:3em;
+}
+.imgS6{
+    width:350px
+    margin-top:7em;
 }
 .txtS{
     text-align: center;
@@ -44,7 +61,7 @@ export const CTeam = props => (
         <Layout>
         <Row>
             <Col  lg={true}>
-            <Image  roundedCircle src={cteam1} alt="test" className="imgS"/>
+            <Image  roundedCircle src={cteam1} alt="test" className="imgS1 mainImgStyle"/>
             </Col>
             <Col  lg={true}>
             <h3 class="namePlate">Frank Ceruzzi</h3>
@@ -77,13 +94,13 @@ export const CTeam = props => (
              </p>
             </Col>
             <Col  lg={true}>            
-             <Image  roundedCircle src={cteam2} alt="test" className="imgS2"/>
+             <Image  roundedCircle src={cteam2} alt="test" className="imgS2 mainImgStyle"/>
             </Col>
         </Row>
 
         <Row>
             <Col  lg={true}>
-            <Image  roundedCircle src={cteam3} alt="test" className="imgS"/>
+            <Image  roundedCircle src={cteam3} alt="test" className="imgS3 mainImgStyle"/>
             </Col>
             <Col  lg={true}>
             <h3 class="namePlate">Mike Schulz</h3>
@@ -96,6 +113,63 @@ export const CTeam = props => (
               (Baruch College), You’re A Good Man Charlie Brown (Baruch College). Sound Design; Anna In The
                Tropics (Baruch College), You’re A Good Man Charlie Brown (Baruch College).
              </p>
+            </Col>
+        </Row>
+
+        <Row>
+            <Col  lg={true}>
+            <h3 class="namePlate">Daniel Patrick Hogan</h3>
+            <p class="txtS">
+            DANIEL PATRICK HOGAN (Scenic and Properties Design) is a versatile artist who has roots in Opera 
+            and Musical Theatre. Daniel attended Texas Tech University and studied Classical Vocal Performance
+             and fell in love with production design. Since then, he has worked as a Scenic Designer, a Makeup 
+             Artist, a Hair and Wig Stylist and a Painter. He was the Production Manager of Moonlight Dinner 
+             Theatre and produced musicals in a renovated Dairy Refrigerator and designed scenery, hair and makeup 
+             for outdoor musical theatre at the Wells Fargo Amphitheatre in Lubbock, Texas. Daniel loves telling 
+             a story and working to find the heart and soul hidden in the details onstage.  
+             </p>
+            </Col>
+            <Col  lg={true}>            
+             <Image  roundedCircle src={cteam4} alt="test" className="imgS4 mainImgStyle"/>
+            </Col>
+        </Row>
+
+        <Row>
+            <Col  lg={true}>
+            <Image  roundedCircle src={cteam5} alt="test" className="imgS5 mainImgStyle"/>
+            </Col>
+            <Col  lg={true}>        
+            <h3 class="namePlate">Andy Evan Cohen</h3>
+            <p class="txtS">
+                ANDY EVAN COHEN (Sound and Projection Design) is an award-winning sound and video designer and composer. His
+                New York stage credits include off-Broadway productions of My Parsifal Conductor, Pushkin, In Bed With Roy Cohn,
+                A Midsummer Night’s Dream (MasterWorks), Our Trojan War (Aquila Theatre US Tour), and Ay Carmela! (Repertorio Español), 
+                as well as nearly 100 off-off-Broadway productions with companies such as Animus Theatre, Boomerang Theater, New Light
+                Theater, Nylon Fusion, Red Fern, Stable Cable, Strindberg Rep., White Horse, and T. Schreiber. His national tour
+                credits include work on Oklahoma! (Networks Broadway), The Hungry Hungry Games (Mills Entertainment),
+                and The American Soldier (Kennedy Center, Library of Congress, The Citadel). Other media credits
+                include music for “Marty’s Shadow”, short films “The Mall” and “Show & Tell Tango”, the web series 
+                “Off Off Kilter”, and music for PBS Documentary films and UN Radio (Africa). Andy holds degrees 
+                from Oberlin and The Manhattan School of Music. Twitter: @AndyEvanCohen
+             </p>    
+            </Col>
+        </Row>
+
+        <Row>
+            <Col  lg={true}>
+            <h3 class="namePlate">Catherine Fisher</h3>
+            <p class="txtS">
+            CATHERINE FISHER (Costume Design) has designed over 100 shows for theater, dance, film, and television, 
+            is a member of the Lincoln Center Director’s Lab, a New York State Counsel for the Arts awards recipient, 
+            and has been recognized with an Outstanding Costume award, Hamlet Bound and Unbound, Midtown International 
+            Theatre Festival; Planet Connections Theatre Festival (Costume award, The God Particle). Her work has been 
+            seen at 59e59th ; NYC Fringe and Prague Fringe Festivals, as well as many other NYC Festivals; The Producer’s
+             Club; Riverside Theatre; has IMDb credits for both acting and design, and is a founding member of Honest 
+             Accomplice Theatre. www.catfisher.homestead.com
+             </p>
+            </Col>
+            <Col  lg={true}>            
+             <Image  roundedCircle src={cteam6} alt="test" className="imgS6 mainImgStyle"/>
             </Col>
         </Row>
 
