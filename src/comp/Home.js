@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { Link } from 'react-router-dom';
 
 const Styles = styled.div`
 .f1{
@@ -35,7 +35,7 @@ const Styles = styled.div`
 `
 
 export const Home = ()  => (
-    <Styles>
+        <Styles>
         <h2 class="f1C">
             THE FUTURE BEGINS . . . AGAIN!
         </h2>
@@ -60,7 +60,13 @@ export const Home = ()  => (
             able to visualize the younger actors Gilman 
             and Elgrabli leading a revolution.
         </p>
-        <button class="button">Learn More!</button>
+        <Link to="/creativeteam">
+            <button type="button" class="button">
+                Learn More!
+            </button>
+        </Link>
     </Styles>
+
+    
     
 )

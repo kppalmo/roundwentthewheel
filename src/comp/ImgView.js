@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Row, Col, Image, Jumbotron} from 'react-bootstrap';
+import { MovingJumbo } from './MovingJumpo';
 import wallpaper from '../img/Untitled.jpg';
 import image1 from '../img/photos/im1.jpg';
 import image2 from '../img/photos/im2.jpg';
@@ -44,11 +45,11 @@ const Styles = styled.div`
     margin-top:1em;
 
 }
-
 `
 
 export const ImgView = props =>(
     <Styles>
+        <MovingJumbo title="Photos"/>
         <Layout>
         <Row>
             <Col lg={true}>

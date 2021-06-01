@@ -14,7 +14,8 @@ const Styles = styled.div`
     text-align:center;
     font-family:Monoton;
     color:yellow;
-    font-size:60px;
+    font-size:50px;
+    margin-top:-.5em;
 
 }
 `

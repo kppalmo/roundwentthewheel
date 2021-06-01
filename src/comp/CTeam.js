@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { MovingJumbo } from './MovingJumpo';
 import { Layout } from './Layout';
 import { Row, Col, Image } from 'react-bootstrap';
 import  cteam1  from '../img/cTeam/cteam1.jpg';
@@ -52,12 +53,11 @@ const Styles = styled.div `
     text-align: center;
     margin-top:2em;
 }
-
-
 `
 
 export const CTeam = props => (
     <Styles>
+        <MovingJumbo title="Creative Team"/>
         <Layout>
         <Row>
             <Col  lg={true}>

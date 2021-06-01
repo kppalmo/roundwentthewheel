@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Image } from 'react-bootstrap';
 import { Layout } from './Layout';
+import { MovingJumbo } from './MovingJumpo';
 import cast1 from '../img/cast/cast1.jpg';
 import cast2 from '../img/cast/cast2.jpg';
 import cast3 from '../img/cast/cast3.jpg';
@@ -33,12 +34,11 @@ const Styles = styled.aside `
     text-align:center;
     color:#009dff;
 }
-
-
 `
 
 export const Cast = props => (
-    <Styles>       
+    <Styles>  
+        <MovingJumbo title="Meet The Cast"/>    
         <Layout>
             <Image src={cast1} className="re" alt="test"/>
             <h2 class="txtCC">RAFEAL JORDAN</h2>
@@ -150,8 +150,7 @@ export const Cast = props => (
              Fiddler on the Roof, Film: Batman -v- Superman the Parody, 
              Retry, Lollitrap, Nightmare As a Child. Thank you mummy & 
              daddy, family, friends! Instagram @arielarozentul_artist
-            </p>
-             
+            </p>  
         </Layout>
     </Styles>
 )
