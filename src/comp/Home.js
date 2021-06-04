@@ -1,4 +1,6 @@
 import React from 'react';
+import { Image } from 'react-bootstrap';
+import playCover from '../img/RWTW1.png'
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
@@ -46,6 +48,7 @@ export const Home = ()  => (
             NEEDS TO DREAM IT ALL UP AGAIN: THE 
             CHILDREN.
         </h3>
+        <Image src={playCover} alt="cover" className="sty2"/>
         <p class="f1">
             What is our species going to do when 
             the healing power of technology becomes 
