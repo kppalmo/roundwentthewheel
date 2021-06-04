@@ -39,7 +39,6 @@ const Styles = styled.div`
 export const Home = ()  => (
         <Styles>
         <h2 class="f1C">
-            THE FUTURE BEGINS . . . AGAIN!
         </h2>
         <h3 class="f1">
             EARTH. THE NEAR FUTURE.
