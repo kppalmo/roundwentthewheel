@@ -5,7 +5,7 @@ import { Layout } from './Layout';
 import { Row, Col, Image } from 'react-bootstrap';
 import  cteam1  from '../img/cTeam/cteam1.jpg';
 import cteam2 from '../img/cTeam/cteam2.jpg';
-import cteam3 from '../img/cTeam/cteam3.jpeg';
+import cteam3 from '../img/cTeam/cteam3.jpg';
 import cteam4 from '../img/cTeam/cteam4.jpg';
 import cteam5 from '../img/cTeam/cteam5.jpg';
 import cteam6 from '../img/cTeam/cteam6.jpg';
@@ -24,26 +24,7 @@ const Styles = styled.div `
     margin-bottom:2em;
     margin-top:2em;
 }
-.imgS2{
-    width:450px
-    margin-top:6em;
-    margin-bottom:2em;
-}
-.imgS3{
-    width:325px
-}
-.imgS4{
-    width:350px
-    margin-top:2em;
-}
-.imgS5{
-    width:350px
-    margin-top:3em;
-}
-.imgS6{
-    width:350px
-    margin-top:7em;
-}
+
 .txtSr{
     text-align: center;
     margin-top:2em;
@@ -94,13 +75,13 @@ export const CTeam = props => (
                 </p>
                 </Col>
                 <Col  lg={true}>            
-                <Image  roundedCircle src={cteam2} alt="test" className="imgS2 mainImgStyle"/>
+                <Image  roundedCircle src={cteam2} alt="test" className="imgS1 mainImgStyle"/>
                 </Col>
             </Row>
 
             <Row>
                 <Col  lg={true}>
-                <Image  roundedCircle src={cteam3} alt="test" className="imgS3 mainImgStyle"/>
+                <Image  roundedCircle src={cteam3} alt="test" className="imgS1 mainImgStyle"/>
                 </Col>
                 <Col  lg={true}>
                 <h3 class="namePlate">Mike Schulz</h3>
@@ -130,13 +111,13 @@ export const CTeam = props => (
                 </p>
                 </Col>
                 <Col  lg={true}>            
-                <Image  roundedCircle src={cteam4} alt="test" className="imgS4 mainImgStyle"/>
+                <Image  roundedCircle src={cteam4} alt="test" className="imgS1 mainImgStyle"/>
                 </Col>
             </Row>
 
             <Row>
                 <Col  lg={true}>
-                <Image  roundedCircle src={cteam5} alt="test" className="imgS5 mainImgStyle"/>
+                <Image  roundedCircle src={cteam5} alt="test" className="imgS1 mainImgStyle"/>
                 </Col>
                 <Col  lg={true}>        
                 <h3 class="namePlate">Andy Evan Cohen</h3>
@@ -169,7 +150,7 @@ export const CTeam = props => (
                 </p>
                 </Col>
                 <Col  lg={true}>            
-                <Image  roundedCircle src={cteam6} alt="test" className="imgS2 mainImgStyle"/>
+                <Image  roundedCircle src={cteam6} alt="test" className="imgS1 mainImgStyle"/>
                 </Col>
             </Row>
         </Layout>
