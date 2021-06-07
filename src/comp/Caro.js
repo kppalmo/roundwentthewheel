@@ -24,39 +24,15 @@ export const Caro = () => (
         <Carousel>
             <Carousel.Item>
                 <Image src={RWTW2} className="s1" alt="test" rounded/>
-                <Carousel.Caption>
-                <p>
-                Coltrane Gilman (Boy). Projection Design: Andy Evan Cohen/The 
-                Roly Polys. Lighting Design: Mike Schulz. Photo: Emily Hewitt.    
-                </p>
-                </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <Image src={RWTW3} className="s1" alt="test" rounded/>
-                <Carousel.Caption>
-                <p>
-                Rafael Jordan* (David). Photo: Emily Hewitt.
-                (*Actor appearing courtesy of Actors’ Equity Association.)
-                </p>
-                </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <Image src={RWTW4} className="s1" alt="test" rounded/>
-                <Carousel.Caption>
-                <p>
-                Coltrane Gilman (Boy) and Michael Gnat* (Anton). Photo: Emily Hewitt.
-                (*Actor appearing courtesy of Actors’ Equity Association.)
-                </p>
-                </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <Image src={RWTW5} className="s1" alt="test" rounded/>
-                <Carousel.Caption>
-                <p>
-                Rafael Jordan* (David) and Marie Elena O’Brien* (Marta). Photo: 
-                Emily Hewitt. (*Actor appearing courtesy of Actors’ Equity Association.)
-                </p>
-                </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
     </Styles>

@@ -76,6 +76,8 @@ export const ImgView = props =>(
             </Col>
         </Row>
         </Layout>
+
+        
         <Jumbotron className="jumbo">
             <h1 class="txtS">The First Rehersal</h1>
         </Jumbotron>

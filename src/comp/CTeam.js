@@ -62,9 +62,9 @@ export const CTeam = props => (
 
             <Row>
                 <Col  lg={true}>
-                <h3 class="namePlate">Janet Bently</h3>
+                <h3 class="namePlate">Janet Bentley</h3>
                 <p class="txtSr">
-                    JANET BENTLEY (Director/Sound Design) holds an MFA in dramaturgy from the University 
+                    Janet Bentley (Director/Sound Design) holds an MFA in dramaturgy from the University 
                     of Iowa and a BA in theatre from the University of South Florida. Select directing 
                     credits include: The Waiting Room (Ashtar Theatre, Ramallah, Palestine), The Dark and 
                     Our Fantasia by John Patrick Shanley (Nylon Fusion), Brooklyn (Cain’s Adventure) by 
