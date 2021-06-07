@@ -11,8 +11,10 @@ const Styles = styled.div`
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    margin-top:2%;
+    width: 65%;
+    margin-top:4em;
+    border:solid;
+    border-color:#009dff;
 }
 
 `

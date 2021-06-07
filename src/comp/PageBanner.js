@@ -14,7 +14,7 @@ const Styles = styled.div`
     text-align:center;
     font-family:Monoton;
     color:#FFD700;
-    font-size:50px;
+    font-size:60px;
     margin-top:-.5em;
 
 }

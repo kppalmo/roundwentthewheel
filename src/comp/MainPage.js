@@ -7,10 +7,10 @@ import { Awards } from './Awards';
 
 export const MainPage = props =>(
   <>
-    <Layout>
       <Caro/>
+      <Layout>
       <Home/>
       <Awards/>
-    </Layout>
+      </Layout>
   </>
 )

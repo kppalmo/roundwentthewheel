@@ -8,7 +8,7 @@ const Styles = styled.div`
     margin-top:-2em;
     margin-bottom:1em;
     height:250px;
-    background: url(${wallpaper})  fixed top;
+    background: url(${wallpaper}) top; 
     background-size:cover;
     color:#ccc;
 
