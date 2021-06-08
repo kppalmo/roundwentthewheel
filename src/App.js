@@ -24,7 +24,6 @@ class App extends React.Component{
             <Route exact path="/creativeteam" component={CTeam} />
             <Route exact path="/photos" component={ImgView} />
             <Route exact path="/about" component={AboutPage} />
-
           </Switch>
         </BrowserRouter>
         <Footer/>
