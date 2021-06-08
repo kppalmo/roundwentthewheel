@@ -12,15 +12,14 @@ const Styles = styled.div`
     .txtColor{
         color:#FFD700;
     }
-    
-    
+  
 `
 
 function NavigationBar () {
     return(
         <Styles>
             <Navbar className="navbar-custom  " variant="light" expand="lg">
-                <Navbar.Brand href="/" className="txtColor">RoundWentTheWheel</Navbar.Brand>
+                <Navbar.Brand href="/" className="txtColor">Round Went The Wheel</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" >
                     <Nav className="ml-auto   ">

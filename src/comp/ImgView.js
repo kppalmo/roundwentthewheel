@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Jumbotron} from 'react-bootstrap';
 import { MovingJumbo } from './MovingJumpo';
 import wallpaper from '../img/Untitled.jpg';
 import IMG1 from '../img/photos/im1.jpg';
@@ -27,12 +26,6 @@ import IMG21 from '../img/photos/im21.jpg';
 import IMG22 from '../img/photos/im22.jpg';
 import IMG23 from '../img/photos/im23.jpg';
 import endPic from '../img/aboutLogo.png';
-import imageR1 from '../img/photos/rehersal/im1.jpg';
-import imageR2 from '../img/photos/rehersal/im2.jpg';
-import imageR3 from '../img/photos/rehersal/im3.jpg';
-import imageR4 from '../img/photos/rehersal/im4.jpg';
-import imageR5 from '../img/photos/rehersal/im5.jpg';
-import imageR6 from '../img/photos/rehersal/im6.jpg';
 import { Layout } from './Layout';
 import { ImgWCaption } from './ImgWCaption';
 
@@ -56,12 +49,13 @@ const Styles = styled.div`
     margin-top:1em;
 
 }
+
 `
 
 export const ImgView = props =>(
     <Styles>
 
-        <MovingJumbo title="Photos"/>
+        <MovingJumbo title="Photos" caption="Broadway Bound Theatre Festival, 2019"/>
         <Layout>
             <ImgWCaption image1={IMG1} image2={IMG2} 
             text1="The waiting room. Set Design: Daniel Patrick Hogan. Lighting Design: Mike Schulz.
@@ -118,22 +112,5 @@ export const ImgView = props =>(
                
         </Layout>
 
-        <Jumbotron className="jumbo">
-            <h1 class="txtS">The First Rehersal</h1>
-        </Jumbotron>
-        
-        <Layout>
-            <ImgWCaption image1={imageR1} image2={imageR2} 
-            text1="Our incredible cast in rehearsal! From left: Christina Toth, Rafael Jordan*, Marie Elena O’Brien*, Oriah Elgrabli (front), Coltrane Gilman, Michael Gnat*, Moira McAuliffe, and Victor Y. Chen. (*Actor appearing courtesy of Actors’ Equity Association.) Photo: Joshua Towvim." 
-            text2="Janet Bentley (Director) giving notes to Coltrane Gilman (Boy). Photo: Joshua Towvim." />
-            <ImgWCaption image1={imageR3} image2={imageR4}
-            text1="Christina Toth (Eloise) and Rafael Jordan* (David) preparing for a scene. Photo: Joshua Towvim.
-            (*Actor appearing courtesy of Actors’ Equity Association.)"
-            text2="Christina Toth (Eloise). Photo: Joshua Towvim."/>
-            <ImgWCaption image1={imageR5} image2={imageR6}
-            text1="Oriah Elgrabli (Girl). Photo: Joshua Towvim."
-            text2="Coltrane Gilman (Boy) running lines with our stage manager, Adam Sherwin.
-            Photo: Joshua Towvim."/>
-        </Layout>
     </Styles>
 )

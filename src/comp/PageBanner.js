@@ -6,23 +6,28 @@ const Styles = styled.div`
 .jumbotron{
     background-image: linear-gradient(#009dff, white);
     color:#ccc;
-    height:200px;
+    height:350px;
     position:relative;
     margin-top:-.5em;
 }
-.txtS{
+.txtHeader{
     text-align:center;
-    font-family:Monoton;
     color:#FFD700;
     font-size:60px;
+    margin-top:.5em;
+}
+.txtSub{
+    text-align:center;
+    color:#FFD700;
+    font-size:35px;
     margin-top:-.5em;
-
 }
 `
 export const Banner = props => (
     <Styles>
         <Jumbotron  className="">
-            <h1 class="txtS">Round Went The Wheel</h1>
+            <h1 class="txtHeader">Round Went The Wheel</h1>
+            <h2 class="txtSub">A dystopian play by Frank Ceruzzi</h2>
         </Jumbotron>
     </Styles>
 

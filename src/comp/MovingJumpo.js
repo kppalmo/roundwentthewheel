@@ -21,12 +21,18 @@ const Styles = styled.div`
     margin-top:1em;
 
 }
+.capS{
+    text-align:center;
+    color:black;
+
+}
 `
 
 export const MovingJumbo = props => (
     <Styles>
         <Jumbotron className="jtron">
             <h4 class="txtS">{props.title}</h4>
+            <h5 class="capS">{props.caption}</h5>
         </Jumbotron> 
     </Styles>
 )
