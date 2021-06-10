@@ -56,23 +56,7 @@ export const Home = ()  => (
         <h2 class="f1C">
             THE FUTURE BEGINS . . . AGAIN!
         </h2>
-        <Layout>
-            <Row>
-                <Col lg={true}>
-                    <a href="https://www.instagram.com/roundwentthewheel/">
-                        <Image src={insta} className="socials"/>
-                    </a>
-                </Col>
-                <Col lg={true}>
-                    <a href="https://www.facebook.com/roundwentthewheel/">
-                        <Image src={faceB} className="socials"/>
-                    </a>
-                </Col>
-            </Row>
-            <Row>
-                <h1 class="f1C">Check Us Out!</h1>
-            </Row>
-        </Layout>
+        
         <h3 class="f1">
             EARTH. THE NEAR FUTURE.
             WHEN TECHNOLOGY BRINGS THE WORLD TO 
@@ -95,13 +79,30 @@ export const Home = ()  => (
                 able to visualize the younger actors Gilman 
                 and Elgrabli leading a revolution.
         </i></p>
-        <a href="http://www.theasy.com/">
+        <a href="http://www.theasy.com/Reviews/2019/R/roundwentthewheel.php">
             <p class="authorQ">—Ed Malin, Theatre is Easy</p>
         </a>
         <a href="/about">
         <button type="button" class="button">
                 Learn More!
             </button>
+            <Layout>
+            <Row>
+                <Col lg={true}>
+                    <a href="https://www.instagram.com/roundwentthewheel/">
+                        <Image src={insta} className="socials"/>
+                    </a>
+                </Col>
+                <Col lg={true}>
+                    <a href="https://www.facebook.com/roundwentthewheel/">
+                        <Image src={faceB} className="socials"/>
+                    </a>
+                </Col>
+            </Row>
+            <Row>
+                <h1 class="f1C">Check Us Out!</h1>
+            </Row>
+        </Layout>
 
         </a>
             

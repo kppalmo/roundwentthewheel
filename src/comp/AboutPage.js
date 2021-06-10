@@ -56,13 +56,16 @@ export const AboutPage = props => (
             </p>
             <h1 className="txtS txtC">THE FUTURE: BEGINS AGAIN!</h1>
             <p className="txtS">
-                ROUND WENT THE WHEEL is a dystopian thriller written by Frank Ceruzzi (WikiMusical). 
-                The play premiered at the 2019 Broadway Bound Theatre Festival at Theatre Row, directed 
-                by Janet Bentley.ROUND WENT THE WHEEL is currently an Official Selection of the 2021 New 
-                Media Film Festival in Los Angeles (Script Competition). It was a finalist for Acadiana 
-                Repertory Theatre‘s 2018 theatrical season and a semi-finalist for the 2018 Austin Film 
-                Festival (Stage Play).Featuring a generation-spanning cast of eight, the play runs 90 
-                minutes, without intermission.
+                ROUND WENT THE WHEEL is a dystopian thriller written by Frank Ceruzzi  
+                <a href=" https://www.wikithemusical.com/">
+                    (WikiMusical). 
+                </a>
+                 Featuring a generation-spanning cast of eight, the play premiered at the 2019 Broadway 
+                Bound Theatre Festival at Theatre Row, directed by Janet Bentley. ROUND WENT THE WHEEL
+                was a finalist for the 2021 New Media Film Festival (Script Competition), a finalist
+                for Acadiana Repertory Theatre‘s 2018 theatrical season, and a semi-finalist for the 
+                2018 Austin Film Festival (Stage Play Competition). Frank is currently at work on an
+                eight-episode TV adaptation of play!
             </p>
             
 
