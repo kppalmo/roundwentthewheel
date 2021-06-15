@@ -3,6 +3,7 @@ import { Nav, Navbar} from 'react-bootstrap';
 import styled from 'styled-components';
 
 const Styles = styled.div`
+font-family:Bowlby One;
  
     .navbar-custom {
         background-color: #009dff;
@@ -28,7 +29,6 @@ function NavigationBar () {
                     <Nav.Item><Nav.Link href="/cast">Cast</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/CreativeTeam">Creative Team</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/Photos">Photos</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/Contact">Contact</Nav.Link></Nav.Item>
                 </Nav>
                 </Navbar.Collapse>
             </Navbar>

@@ -41,7 +41,7 @@ const Styles = styled.aside `
 
 export const Cast = props => (
     <Styles>  
-        <MovingJumbo title="Meet The Cast"/>    
+        <MovingJumbo title="Meet The Cast" caption="Broadway Bound Theatre Festival, 2019"/>    
         <Layout>
             <Row className="eCenter">
                 <Col lg={true}>

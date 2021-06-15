@@ -18,11 +18,9 @@ const Styles = styled.div `
     margin-right: auto;
     border:solid;
     border-color:#009dff;
-}
-.imgS1{
     width:350px;
     margin-bottom:2em;
-    margin-top:2em;
+    margin-top:6em;
 }
 
 .txtSr{
@@ -38,11 +36,11 @@ const Styles = styled.div `
 
 export const CTeam = props => (
     <Styles>
-        <MovingJumbo title="Creative Team"/>
+        <MovingJumbo title="Creative Team" caption="Broadway Bound Theatre Festival, 2019"/>
         <Layout>
             <Row>
                 <Col  lg={true}>
-                <Image  roundedCircle src={cteam1} alt="test" className="imgS1 mainImgStyle"/>
+                <Image  roundedCircle src={cteam1} alt="test" className=" mainImgStyle"/>
                 </Col>
                 <Col  lg={true}>
                 <h3 class="namePlate">Frank Ceruzzi</h3>
@@ -75,13 +73,13 @@ export const CTeam = props => (
                 </p>
                 </Col>
                 <Col  lg={true}>            
-                <Image  roundedCircle src={cteam2} alt="test" className="imgS1 mainImgStyle"/>
+                <Image  roundedCircle src={cteam2} alt="test" className=" mainImgStyle"/>
                 </Col>
             </Row>
 
             <Row>
                 <Col  lg={true}>
-                <Image  roundedCircle src={cteam3} alt="test" className="imgS1 mainImgStyle"/>
+                <Image  roundedCircle src={cteam3} alt="test" className=" mainImgStyle"/>
                 </Col>
                 <Col  lg={true}>
                 <h3 class="namePlate">Mike Schulz</h3>
@@ -111,13 +109,13 @@ export const CTeam = props => (
                 </p>
                 </Col>
                 <Col  lg={true}>            
-                <Image  roundedCircle src={cteam4} alt="test" className="imgS1 mainImgStyle"/>
+                <Image  roundedCircle src={cteam4} alt="test" className=" mainImgStyle"/>
                 </Col>
             </Row>
 
             <Row>
                 <Col  lg={true}>
-                <Image  roundedCircle src={cteam5} alt="test" className="imgS1 mainImgStyle"/>
+                <Image  roundedCircle src={cteam5} alt="test" className=" mainImgStyle"/>
                 </Col>
                 <Col  lg={true}>        
                 <h3 class="namePlate">Andy Evan Cohen</h3>
@@ -150,7 +148,7 @@ export const CTeam = props => (
                 </p>
                 </Col>
                 <Col  lg={true}>            
-                <Image  roundedCircle src={cteam6} alt="test" className="imgS1 mainImgStyle"/>
+                <Image  roundedCircle src={cteam6} alt="test" className=" mainImgStyle"/>
                 </Col>
             </Row>
         </Layout>

@@ -54,8 +54,8 @@ const Styles = styled.div`
 
 export const ImgView = props =>(
     <Styles>
-
         <MovingJumbo title="Photos" caption="Broadway Bound Theatre Festival, 2019"/>
+
         <Layout>
             <ImgWCaption image1={IMG1} image2={IMG2} 
             text1="The waiting room. Set Design: Daniel Patrick Hogan. Lighting Design: Mike Schulz.

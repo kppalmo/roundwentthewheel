@@ -4,6 +4,7 @@ import { Jumbotron } from 'react-bootstrap';
 import wallpaper from '../img/Untitled.jpg';
 
 const Styles = styled.div`
+font-family:Bowlby One;
 .jtron{
     margin-top:-2em;
     margin-bottom:1em;
@@ -15,7 +16,6 @@ const Styles = styled.div`
 }
 .txtS{
     text-align:center;
-    font-family:Monoton;
     color:black;
     font-size:55px;
     margin-top:1em;
