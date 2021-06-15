@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import {Jumbotron} from 'react-bootstrap';
 
 const Styles = styled.div`
-font-family:Bowlby One;
+font-family:Barrio;
 .jumbotron{
     background-image: linear-gradient(#009dff, white);
     color:#ccc;
