@@ -3,8 +3,8 @@ import {Container} from 'react-bootstrap';
 import styled from 'styled-components';
 
 const Styles = styled.div`
-    font-family:Iceland;
-    font-size: 25px;
+    font-family:;
+    font-size:20px;
     
 `
 
