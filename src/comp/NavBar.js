@@ -3,7 +3,7 @@ import { Nav, Navbar} from 'react-bootstrap';
 import styled from 'styled-components';
 
 const Styles = styled.div`
-font-family:Bowlby One;
+font-family:Futura PT Heavy;
  
     .navbar-custom {
         background-color: #009dff;
@@ -20,7 +20,7 @@ function NavigationBar () {
     return(
         <Styles>
             <Navbar className="navbar-custom  " variant="light" expand="lg">
-                <Navbar.Brand href="/" className="txtColor">Round Went The Wheel</Navbar.Brand>
+                <Navbar.Brand href="/" className="txtColor">ROUND WENT THE WHEEL</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" >
                     <Nav className="ml-auto   ">
