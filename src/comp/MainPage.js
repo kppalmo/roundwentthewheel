@@ -4,9 +4,11 @@ import { Layout } from './Layout';
 import { Home } from './Home';
 import { Caro } from './Caro';
 import { Awards } from './Awards';
+import { MovingJumbo } from './MovingJumpo';
 
 export const MainPage = props =>(
   <>
+      <MovingJumbo title="txt1" caption="txt2"/>
       <Caro/>
       <Layout>
       <Home/>

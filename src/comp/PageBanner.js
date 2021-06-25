@@ -16,18 +16,21 @@ font-family:Futura PT Heavy;
     color:#FFD700;
     font-size:60px;
     margin-top:.5em;
+    font-family:Bowlby One;
 }
 .txtSub{
     text-align:center;
     color:#FFD700;
     font-size:35px;
     margin-top:-.5em;
+    font-family:Bowlby One;
+
 }
 `
 export const Banner = props => (
     <Styles>
         <Jumbotron  className="">
-            <h1 class="txtHeader">Round Went The Wheel</h1>
+            <h1 class="txtHeader">ROUND WENT THE WHEEL</h1>
             <h2 class="txtSub">A dystopian play by Frank Ceruzzi</h2>
         </Jumbotron>
     </Styles>
