@@ -43,7 +43,6 @@ const Styles = styled.div`
 }
 .txtS{
     text-align:center;
-    font-family:Monoton;
     color:black;
     font-size:60px;
     margin-top:1em;

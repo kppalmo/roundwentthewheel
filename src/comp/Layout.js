@@ -4,7 +4,6 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
     font-family:;
-    font-size:20px;
     
 `
 

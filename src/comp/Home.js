@@ -22,7 +22,8 @@ const Styles = styled.div`
 
 }
 .socials{
-    margin-top:3em;
+    margin-top:4em;
+    margin-bottom:4em;
     width:45%;
     display: block;
     margin-left: auto;
