@@ -22,7 +22,7 @@ font-family:Futura PT Heavy;
     text-align:center;
     color:#FFD700;
     font-size:35px;
-    margin-top:-.5em;
+    margin-top:.5em;
     font-family:Bowlby One;
 
 }
