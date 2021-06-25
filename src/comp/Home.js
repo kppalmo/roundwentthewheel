@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import { Layout } from './Layout';
 import insta from '../img/instaLogo.png';
 import faceB from '../img/face-logo.png';
+import { Awards } from './Awards';
 
 const Styles = styled.div`
 .f1{
@@ -85,6 +86,9 @@ export const Home = ()  => (
         <button type="button" class="button">
                 Learn More!
             </button>
+            <Awards/>
+
+            
             <Layout>
             <Row>
                 <Col lg={true}>
