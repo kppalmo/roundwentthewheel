@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Image, Row, Col} from 'react-bootstrap';
 import awa1 from '../img/award1.png';
 import awa2 from '../img/award2.jpg';
-
+import { Layout } from './Layout';
 
 const Styles = styled.div`
 .imgStyle1{
@@ -41,6 +41,8 @@ const Styles = styled.div`
 
 export const Awards = props => (
     <Styles>
+        <Layout>
+
         <Row>
             <Col>
             <Image className="imgStyle1" src={awa1} alt="awa1 drop-shadow"/>
@@ -51,6 +53,9 @@ export const Awards = props => (
             <h4 class="cenTlb">2021 NEW MEDIA FILM FESTIVAL</h4>
             </Col>
         </Row>
+
+        </Layout>
+
         
     </Styles>
 )

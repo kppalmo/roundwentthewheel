@@ -36,7 +36,7 @@ const Styles = styled.div`
     color:#009dff;
 }
 .sty2{
-    width:45%;
+    width:60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -50,8 +50,8 @@ const Styles = styled.div`
     margin-left: auto;
     margin-right: auto;
     margin-bottom:25px;
-    background-color:#009dff;
-    color:white;
+    margin-top:25px;
+   
 }
 
 `
@@ -68,32 +68,36 @@ export const Home = ()  => (
         </h3>
         </Layout> 
         <Layout>
-        <Image src={playCover} alt="cover" className="sty2 "/>        
+            <Row>
+                <Col lg={true}>
+                    <Image src={playCover} alt="cover" className="sty2 "/>        
+                </Col>
+                <Col lg={true}>
+                    <p class="f1"><i>
+                        What is our species going to do when 
+                        the healing power of technology becomes 
+                        a danger?…ROUND WENT THE WHEEL, a poetic 
+                        new play by Frank Ceruzzi, [delves] into 
+                        the enduring question of why being human 
+                        is a reward in itself….This stuff of graphic 
+                        novels and anime is now on stage thanks to 
+                        the Broadway Bound Festival. Director Janet 
+                        Bentley elicits some remarkable performances 
+                        from the multi-generational cast. You might be
+                        able to visualize the younger actors Gilman 
+                        and Elgrabli leading a revolution.
+                    </i></p>
+                    <a href="http://www.theasy.com/Reviews/2019/R/roundwentthewheel.php">
+                        <p class="authorQ">—Ed Malin, Theatre is Easy</p>
+                    </a>     
+                </Col>
+            </Row>
         </Layout> 
-        <Layout>
-        <p class="f1"><i>
-            What is our species going to do when 
-                the healing power of technology becomes 
-                a danger?…ROUND WENT THE WHEEL, a poetic 
-                new play by Frank Ceruzzi, [delves] into 
-                the enduring question of why being human 
-                is a reward in itself….This stuff of graphic 
-                novels and anime is now on stage thanks to 
-                the Broadway Bound Festival. Director Janet 
-                Bentley elicits some remarkable performances 
-                from the multi-generational cast. You might be
-                able to visualize the younger actors Gilman 
-                and Elgrabli leading a revolution.
-        </i></p>
-        <a href="http://www.theasy.com/Reviews/2019/R/roundwentthewheel.php">
-            <p class="authorQ">—Ed Malin, Theatre is Easy</p>
-        </a>
-        </Layout>
-
         <a href="/about">
-        <button type="button" class="button">
+        <button type="button" class="button btn btn-primary">
                 Learn More!
         </button>
+        </a>
         <Awards/>
         <Layout>
             <Row>
@@ -113,7 +117,6 @@ export const Home = ()  => (
             </Row>
         </Layout>
 
-        </a>
             
         </Styles>
 
