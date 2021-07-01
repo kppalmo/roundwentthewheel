@@ -5,37 +5,21 @@ import { Layout } from './Layout';
 
 const Styles = styled.div`
 font-family:Futura PT Heavy;
-.jumbotron{
-    background-image: linear-gradient(#009dff, white);
-    color:#ccc;
-    height:350px;
-    position:relative;
-    margin-top:-.5em;
-}
-.txtHeader{
-    text-align:center;
-    color:#FFD700;
-    font-size:60px;
-    margin-top:.5em;
-    font-family:Bowlby One;
-}
-.txtSub{
-    text-align:center;
-    color:#FFD700;
-    font-size:35px;
-    margin-top:.5em;
-    font-family:Bowlby One;
 
+.cont{
+    height:200px;
+    background-image: linear-gradient(#009dff, white);
+    text-align:center;
 }
+
 `
 export const Banner = props => (
     <Styles>
-        <Jumbotron>
-            <Layout>
-            <h1 class="txtHeader">ROUND WENT THE WHEEL</h1>
-            <h2 class="txtSub">A dystopian play by Frank Ceruzzi</h2>
-            </Layout>
-        </Jumbotron>
+        <div class="cont">
+            <h1>Round Went The Wheel</h1>
+            <h3>A  Dystopian Play by Frank Curruzi</h3>
+        </div>
+        
 
     </Styles>
 

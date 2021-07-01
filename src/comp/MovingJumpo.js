@@ -6,24 +6,19 @@ import wallpaper from '../img/Untitled.jpg';
 const Styles = styled.div`
 font-family:Bowlby One;
 .jtron{
-    margin-top:-2em;
-    margin-bottom:1em;
-    height:250px;
+    height:;
     background: url(${wallpaper}) top; 
-    background-size:cover;
-    color:#ccc;
-
 }
 .txtS{
     text-align:center;
     color:black;
-    font-size:55px;
-    margin-top:1em;
+    font-size:4vh;
 
 }
 .capS{
     text-align:center;
     color:black;
+    font-size:2vh;
 
 }
 `
