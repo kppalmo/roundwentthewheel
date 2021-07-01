@@ -36,7 +36,7 @@ const Styles = styled.div`
     color:#009dff;
 }
 .sty2{
-    width:35%;
+    width:45%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -51,6 +51,9 @@ const Styles = styled.div`
     background-color:#009dff;
     color:white;
 }
+.box-shadow{
+    box-shadow: 0px 0px 10px #000;
+}
 `
 
 export const Home = ()  => (
@@ -64,7 +67,9 @@ export const Home = ()  => (
             NEEDS TO DREAM IT ALL UP AGAIN: THE 
             CHILDREN.
         </h3>
-        <Image src={playCover} alt="cover" className="sty2"/>
+        <Layout>
+        <Image src={playCover} alt="cover" className="sty2 box-shadow"/>
+        </Layout>
         <p class="f1"><i>
             What is our species going to do when 
                 the healing power of technology becomes 
@@ -103,7 +108,7 @@ export const Home = ()  => (
                 </Col>
             </Row>
             <Row>
-                <h1 class="f1C">Check Us Out!</h1>
+                <h1 class="f1C">Press or Inquiries: roundwentthewheel@gmail.com</h1>
             </Row>
         </Layout>
 

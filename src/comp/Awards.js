@@ -35,6 +35,10 @@ const Styles = styled.div`
     margin-bottom:5px;
     color:#009dff;
 }
+.drop-shadow{
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+
+}
 
 `
 
@@ -42,11 +46,11 @@ export const Awards = props => (
     <Styles>
         <Row>
             <Col>
-            <Image className="imgStyle1" src={awa1} alt="awa1"/>
+            <Image className="imgStyle1" src={awa1} alt="awa1 drop-shadow"/>
             <h4 class="cenTlb">2019 BROADWAY BOUND THEATRE FESTIVAL</h4>
             </Col>
             <Col>
-            <Image className="imgStyle2" src={awa2} alt="awa1"/>
+            <Image className="imgStyle2" src={awa2} alt="awa1 drop-shadow"/>
             <h4 class="cenTlb">2021 NEW MEDIA FILM FESTIVAL</h4>
             </Col>
         </Row>

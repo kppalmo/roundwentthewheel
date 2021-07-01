@@ -7,7 +7,7 @@ import { MovingJumbo } from './MovingJumpo';
 
 export const MainPage = props =>(
   <>
-      <MovingJumbo title="The future begins...again!" />
+      <MovingJumbo title="" />
       <Caro/>
       <Layout>
       <Home/>

@@ -21,8 +21,10 @@ const Styles = styled.div `
     margin-right: auto;
     margin-top:2em;
     margin-bottom:2em;
-    border:solid;
-    border-color:#009dff;
+
+}
+.box-shadow{
+    box-shadow: 0px 0px 10px #000;
 }
 
 `
@@ -31,7 +33,7 @@ export const AboutPage = props => (
     <Styles>
         <MovingJumbo title="About"/>
         <Layout>
-            <Image src={img} alt="logo" className="imgS"/>
+            <Image src={img} alt="logo" className="imgS box-shadow"/>
             <h1 className="txtS txtC">THE PAST:</h1>
             <p className="txtS">
                 A computer network, Central, connects the world and—through a chip 

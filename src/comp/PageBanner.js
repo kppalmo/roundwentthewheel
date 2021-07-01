@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Jumbotron} from 'react-bootstrap';
+import { Layout } from './Layout';
 
 const Styles = styled.div`
 font-family:Futura PT Heavy;
@@ -29,10 +30,13 @@ font-family:Futura PT Heavy;
 `
 export const Banner = props => (
     <Styles>
-        <Jumbotron  className="">
+        <Jumbotron>
+            <Layout>
             <h1 class="txtHeader">ROUND WENT THE WHEEL</h1>
             <h2 class="txtSub">A dystopian play by Frank Ceruzzi</h2>
+            </Layout>
         </Jumbotron>
+
     </Styles>
 
 
