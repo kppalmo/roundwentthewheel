@@ -13,6 +13,7 @@ const Styles = styled.div`
 .Text{
     text-align:center;
     margin-top:45px;
+    font-size:100%;
 }
 `
 export const Footer = props => (

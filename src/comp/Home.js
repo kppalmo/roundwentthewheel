@@ -42,6 +42,8 @@ const Styles = styled.div`
     margin-right: auto;
     margin-top:25px;
     margin-bottom:20px;
+    box-shadow: 0px 0px 10px #000;
+
 }
 .button{
     display: block;
@@ -51,15 +53,12 @@ const Styles = styled.div`
     background-color:#009dff;
     color:white;
 }
-.box-shadow{
-    box-shadow: 0px 0px 10px #000;
-}
+
 `
 
 export const Home = ()  => (
         <Styles>
-       
-        
+        <Layout>
         <h3 class="f1">
             EARTH. THE NEAR FUTURE.
             WHEN TECHNOLOGY BRINGS THE WORLD TO 
@@ -67,9 +66,11 @@ export const Home = ()  => (
             NEEDS TO DREAM IT ALL UP AGAIN: THE 
             CHILDREN.
         </h3>
+        </Layout> 
         <Layout>
-        <Image src={playCover} alt="cover" className="sty2 box-shadow"/>
-        </Layout>
+        <Image src={playCover} alt="cover" className="sty2 "/>        
+        </Layout> 
+        <Layout>
         <p class="f1"><i>
             What is our species going to do when 
                 the healing power of technology becomes 
@@ -87,14 +88,14 @@ export const Home = ()  => (
         <a href="http://www.theasy.com/Reviews/2019/R/roundwentthewheel.php">
             <p class="authorQ">—Ed Malin, Theatre is Easy</p>
         </a>
+        </Layout>
+
         <a href="/about">
         <button type="button" class="button">
                 Learn More!
-            </button>
-            <Awards/>
-
-            
-            <Layout>
+        </button>
+        <Awards/>
+        <Layout>
             <Row>
                 <Col lg={true}>
                     <a href="https://www.instagram.com/roundwentthewheel/">
@@ -108,7 +109,7 @@ export const Home = ()  => (
                 </Col>
             </Row>
             <Row>
-                <h1 class="f1C">Press or Inquiries: roundwentthewheel@gmail.com</h1>
+                <h4 class="f1C">Press or Inquiries: roundwentthewheel@gmail.com</h4>
             </Row>
         </Layout>
 

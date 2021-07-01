@@ -32,6 +32,7 @@ const Styles = styled.div `
 export const AboutPage = props => (
     <Styles>
         <MovingJumbo title="About"/>
+        
         <Layout>
             <Image src={img} alt="logo" className="imgS box-shadow"/>
             <h1 className="txtS txtC">THE PAST:</h1>

@@ -7,7 +7,7 @@ import awa2 from '../img/award2.jpg';
 
 const Styles = styled.div`
 .imgStyle1{
-    width:65%;
+    width:%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -16,7 +16,7 @@ const Styles = styled.div`
 
 }
 .imgStyle2{
-    width:65%;
+    width:%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -24,14 +24,11 @@ const Styles = styled.div`
     margin-bottom:35px;
 
 }
-.cenT{
-    text-align:center;
-    margin-bottom:5px;
-    margin-top:35px;
-}
+
 
 .cenTlb{
     text-align:center;
+    font-size:100%;
     margin-bottom:5px;
     color:#009dff;
 }
