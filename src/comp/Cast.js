@@ -141,7 +141,7 @@ export const Cast = props => (
             <Row className="eCenter">
                 <Col lg={true}>
                     <Image src={cast6} className="re"/>
-                    <h2 class="txtCC">VICTOR Y. CHEN (Dake) </h2>v
+                    <h2 class="txtCC">VICTOR Y. CHEN (Dake) </h2>
                 </Col>
                 <Col lg={true}>
                     <p class="txtC">
