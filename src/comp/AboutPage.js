@@ -26,6 +26,17 @@ const Styles = styled.div `
 .box-shadow{
     box-shadow: 0px 0px 10px #000;
 }
+.test{
+    width:203vh;
+    height:50vh;
+    background-color:blue;
+}
+
+@media screen and (max-width:1020px) {
+    .imgS{
+        width:100%;
+    }
+}
 
 `
 
@@ -73,5 +84,6 @@ export const AboutPage = props => (
             
 
         </Layout>
+       
     </Styles>
 )

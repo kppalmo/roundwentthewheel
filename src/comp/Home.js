@@ -51,8 +51,13 @@ const Styles = styled.div`
     margin-right: auto;
     margin-bottom:25px;
     margin-top:25px;
+    
    
 }
+@media screen and (max-width:500px) {
+    .sty2{
+        width:100%;
+    }
 
 `
 

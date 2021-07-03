@@ -20,7 +20,7 @@ function NavigationBar () {
     return(
         <Styles>
             <Navbar className="navbar-custom  " variant="light" expand="lg">
-                <Navbar.Brand href="/" className="txtColor">ROUND WENT THE WHEEL</Navbar.Brand>
+                <Navbar.Brand href="/" className="txtColor">RWTW</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" >
                     <Nav className="ml-auto   ">

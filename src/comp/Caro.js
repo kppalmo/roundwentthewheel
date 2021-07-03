@@ -9,10 +9,10 @@ import RWTW5 from '../img/RWTW5.jpg';
 
 const Styles = styled.div`
 .s1{
-    width:85%;
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
+    width:1200px;
     box-shadow: 0px 0px 10px #000;
 
 }
@@ -21,20 +21,23 @@ const Styles = styled.div`
 
 export const Caro = () => (
     <Styles>
+        <Layout>
+
         <Carousel>
             <Carousel.Item>
-                <Image src={RWTW2}  alt="test" className="s1" />
+                <Image src={RWTW2}  alt="test" className="s1 img-fluid" />
             </Carousel.Item>
             <Carousel.Item>
-                <Image src={RWTW3}  alt="test" className="s1" />
+                <Image src={RWTW3}  alt="test" className="s1 img-fluid" />
             </Carousel.Item>
             <Carousel.Item>
-                <Image src={RWTW4}  alt="test"  className="s1"/>
+                <Image src={RWTW4}  alt="test"  className="s1 img-fluid"/>
             </Carousel.Item>
             <Carousel.Item>
-                <Image src={RWTW5} alt="test" className="s1"  />
+                <Image src={RWTW5} alt="test" className="s1 img-fluid"  />
             </Carousel.Item>
         </Carousel>
+        </Layout>
 
         
     </Styles>
