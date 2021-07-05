@@ -3,7 +3,7 @@ import { Nav, Navbar} from 'react-bootstrap';
 import styled from 'styled-components';
 
 const Styles = styled.div`
-font-family:Futura PT Heavy;
+font-family:Lato;
  
     .navbar-custom {
         background-color: #009dff;

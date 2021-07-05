@@ -58,6 +58,11 @@ const Styles = styled.div`
     .sty2{
         width:100%;
     }
+    .authorQ{
+        text-align:center;
+        margin-left: 0%;
+        color:#009dff;
+    }
 
 `
 
