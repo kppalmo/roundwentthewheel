@@ -12,8 +12,9 @@ const Styles = styled.div`
 }
 .Text{
     text-align:center;
-    margin-top:45px;
+    margin-top:10vh;
     font-size:100%;
+    color:#333333;
 }
 `
 export const Footer = props => (
