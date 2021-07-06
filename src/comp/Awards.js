@@ -45,12 +45,16 @@ export const Awards = props => (
 
         <Row>
             <Col>
-            <Image className="imgStyle1" src={awa1} alt="awa1 drop-shadow"/>
-            <h4 class="cenTlb">2019 BROADWAY BOUND THEATRE FESTIVAL</h4>
+            <a href="https://www.broadwayboundfestival.com/book-online">
+                <Image className="imgStyle1" src={awa1} alt="awa1 drop-shadow"/>
+                <h4 class="cenTlb">2019 BROADWAY BOUND THEATRE FESTIVAL</h4>
+            </a>
             </Col>
             <Col>
-            <Image className="imgStyle2" src={awa2} alt="awa1 drop-shadow"/>
-            <h4 class="cenTlb">2021 NEW MEDIA FILM FESTIVAL</h4>
+            <a href="https://www.newmediafilmfestival.com/events-2/">
+                <Image className="imgStyle2" src={awa2} alt="awa1 drop-shadow"/>
+                <h4 class="cenTlb">2021 NEW MEDIA FILM FESTIVAL</h4>
+            </a>
             </Col>
         </Row>
 
