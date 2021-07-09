@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useSpring, animated } from 'react-spring'
 const Styles = styled.div`
 font-family:Lato;
 
@@ -23,14 +22,11 @@ font-family:Lato;
 
 `
 export const Banner = props => {
-    const tAnima = useSpring({  from: { y:-130 }, to: { y:0 }, delay: 100, config: {duration:1100}})
 
     return(
     <Styles>
         <div class="cont">
-            <animated.div style={tAnima}>  
                 <h1 class="pagebanner-text">ROUND WENT THE WHEEL</h1>
-            </animated.div>  
         </div>
     </Styles>
     )

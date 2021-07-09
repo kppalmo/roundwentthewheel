@@ -32,7 +32,7 @@ font-family:Bowlby One;
 `
 
 export const MovingJumbo = (props) => {
-    const tAnima = useSpring({ to: { opacity: 1 }, from: { opacity: 0 }, delay: 325, config: {duration:1300}})
+    const tAnima = useSpring({ to: { opacity: 1 }, from: { opacity: 0 }, delay: 100, config: {duration:1200}})
 
     return(
         <Styles>
