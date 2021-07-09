@@ -12,6 +12,8 @@ font-family:Bowlby One;
     background: url(${wallpaper}); 
     object-fit: cover;
     object-position:center;
+    box-shadow:0px 0px 10px;
+    margin-top:3vh;
 
 }
 .jumbo-txtS{
