@@ -14,6 +14,7 @@ const Styles = styled.div`
     font-family:Lato;
 
 }
+
 .f1{
     margin-top: 10vh;
     margin-bottom: 10vh;
@@ -93,7 +94,7 @@ export const Home = ()  => (
                 </Col>
                 <Col lg={true}>
                     <p class="f1-review"><i>
-                        What is our species going to do when 
+                        "What is our species going to do when 
                         the healing power of technology becomes 
                         a danger?…ROUND WENT THE WHEEL, a poetic 
                         new play by Frank Ceruzzi, [delves] into 
@@ -104,8 +105,9 @@ export const Home = ()  => (
                         Bentley elicits some remarkable performances 
                         from the multi-generational cast. You might be
                         able to visualize the younger actors Gilman 
-                        and Elgrabli leading a revolution.
+                        and Elgrabli leading a revolution."
                     </i></p>
+
                     <a href="http://www.theasy.com/Reviews/2019/R/roundwentthewheel.php">
                         <p class="authorQ">—Ed Malin, Theatre is Easy</p>
                     </a>     
