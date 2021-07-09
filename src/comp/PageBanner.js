@@ -17,7 +17,7 @@ export const Banner = props => (
     <Styles>
         <div class="cont">
             <h1>ROUND WENT THE WHEEL</h1>
-            <h3>A  Dystopian Play by Frank Ceruzzi</h3>
+            <h3></h3>
         </div>
     </Styles>
 
