@@ -68,7 +68,7 @@ export const AboutPage = props => (
                 </a>. Featuring a generation-spanning cast of eight 
                 (3M, 3W, 1B, 1G), the play runs 90 minutes with no intermission. 
                 ROUND WENT THE WHEEL premiered at the 2019 Broadway Bound Theatre Festival at Theatre Row, directed by Janet Bentley. 
-                The play was an Official Selection of the 2021 New Media Film Festival (Script Competition) , a finalist for Acadiana 
+                The play was an Official Selection of the 2021 New Media Film Festival (Script Competition), a finalist for Acadiana 
                 Repertory Theatre's 2018 theatrical season, and a semi-finalist for the 2018 Austin Film Festival 
                 (Stage Play Competition).
             </p>
