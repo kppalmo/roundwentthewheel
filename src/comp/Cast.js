@@ -133,7 +133,7 @@ export const Cast = props => (
                         (recurring guest star – Annalisa Damiva), LAZARUS (New York Theatre Workshop) and WARDA 
                         (Théâtre Le Rideau, Belgium). She appeared in HBO’S Boardwalk Empire (Co-Star) and
                         Discovery’s A Crime To Remember (Guest Star). She recently was seen on stage in a
-                        revival production of The Woolgatherer (LaTea Theatre) directed by Chazz Palminteri
+                        revival production of The Woolgatherer (LaTea Theatre) directed by Chazz Palminteri.
                     </p>
                 </Col>
             </Row>

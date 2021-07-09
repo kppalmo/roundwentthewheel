@@ -3,8 +3,8 @@ import { Image, Row, Col } from 'react-bootstrap';
 import playCover from '../img/RWTW1.png'
 import styled from 'styled-components';
 import { Layout } from './Layout';
-import insta from '../img/instaLogo.png';
-import faceB from '../img/face-logo.png';
+import insta from '../img/instaLogo.jpg';
+import faceB from '../img/face-logo.jpg';
 import { Awards } from './Awards';
 
 const Styles = styled.div`
@@ -25,7 +25,7 @@ const Styles = styled.div`
 .socials{
     margin-top:4em;
     margin-bottom:4em;
-    width:45%;
+    width:25%;
     display: block;
     margin-left: auto;
     margin-right: auto;

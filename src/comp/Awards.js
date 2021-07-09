@@ -1,9 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
-import { Image, Row, Col} from 'react-bootstrap';
+import { Container, Image, Row, Col} from 'react-bootstrap';
 import awa1 from '../img/award1.png';
 import awa2 from '../img/award2.jpg';
-import { Layout } from './Layout';
 
 const Styles = styled.div`
 .imgStyle1{
@@ -36,29 +35,33 @@ const Styles = styled.div`
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
 
 }
+.award-spacing{
+    margin-top:10vh;
+    margin-bottom:10vh;
+}
 
 `
 
 export const Awards = props => (
     <Styles>
-        <Layout>
+        <Container className="award-spacing">
 
         <Row>
             <Col>
             <a href="https://www.broadwayboundfestival.com/book-online">
-                <Image className="imgStyle1" src={awa1} alt="awa1 drop-shadow"/>
+                <Image className="imgStyle1 drop-shadow" src={awa1} alt="awa1 drop-shadow"/>
                 <h4 class="cenTlb">2019 BROADWAY BOUND THEATRE FESTIVAL</h4>
             </a>
             </Col>
             <Col>
             <a href="https://www.newmediafilmfestival.com/events-2/">
-                <Image className="imgStyle2" src={awa2} alt="awa1 drop-shadow"/>
+                <Image className="imgStyle2 drop-shadow" src={awa2} alt="awa1 "/>
                 <h4 class="cenTlb">2021 NEW MEDIA FILM FESTIVAL</h4>
             </a>
             </Col>
         </Row>
 
-        </Layout>
+        </Container>
 
         
     </Styles>
