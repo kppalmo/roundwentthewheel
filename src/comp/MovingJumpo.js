@@ -32,15 +32,15 @@ font-family:Bowlby One;
 `
 
 export const MovingJumbo = (props) => {
-    const tAnima = useSpring({ to: { opacity: 1 }, from: { opacity: 0 }, config: {duration:1100}})
+    const tAnima = useSpring({ to: { opacity: 1 }, from: { opacity: 0 }, delay: 325, config: {duration:1300}})
 
     return(
         <Styles>
         <animated.div style={tAnima}>
-        <Jumbotron className="jtron">
-            <h4 class="jumbo-txtS">{props.title}</h4>
-            <h5 class="capS">{props.caption}</h5>
-        </Jumbotron> 
+            <Jumbotron className="jtron">
+                <h4 class="jumbo-txtS">{props.title}</h4>
+                <h5 class="capS">{props.caption}</h5>
+            </Jumbotron> 
         </animated.div>
     </Styles>
 
