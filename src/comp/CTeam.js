@@ -31,6 +31,7 @@ const Styles = styled.div `
     color:#009dff;
     text-align: center;
     margin-top:2em;
+    font-family:Bowlby One;
 }
 `
 

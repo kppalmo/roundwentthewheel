@@ -34,6 +34,7 @@ const Styles = styled.div`
 .cenTlb{
     text-align:center;
     font-size:100%;
+    font-family:Lato;
     margin-bottom:5px;
     color:#009dff;
 }

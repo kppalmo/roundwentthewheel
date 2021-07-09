@@ -24,7 +24,7 @@ const Styles = styled.aside `
     border-color:#009dff;
 }
 .txtC{
-    margin-top:50px;
+    margin-top:10vh;
     margin-bottom:15px;
     text-align:center;
 }
@@ -33,6 +33,7 @@ const Styles = styled.aside `
     margin-bottom:15px;
     text-align:center;
     color:#009dff;
+    font-family:Bowlby One;
 }
 .eCenter{
     margin-bottom:2em;

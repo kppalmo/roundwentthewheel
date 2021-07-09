@@ -8,10 +8,17 @@ import faceB from '../img/face-logo.jpg';
 import { Awards } from './Awards';
 
 const Styles = styled.div`
-.f1{
+.f1-review{
     text-align: center;
     margin-top: 50px;
-  
+    font-family:Lato;
+
+}
+.f1{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-family:Bowlby One;
+    text-align: center;
 }
 .f1C{
     text-align: center;
@@ -34,6 +41,7 @@ const Styles = styled.div`
 .authorQ{
     margin-left: 80%;
     color:#009dff;
+    font-family:Lato;
 }
 .sty2{
     width:60%;
@@ -51,7 +59,8 @@ const Styles = styled.div`
     margin-right: auto;
     margin-bottom:25px;
     margin-top:25px;
-    
+    font-family:Lato;
+
    
 }
 @media screen and (max-width:500px) {
@@ -83,7 +92,7 @@ export const Home = ()  => (
                     <Image src={playCover} alt="cover" className="sty2 "/>        
                 </Col>
                 <Col lg={true}>
-                    <p class="f1"><i>
+                    <p class="f1-review"><i>
                         What is our species going to do when 
                         the healing power of technology becomes 
                         a danger?…ROUND WENT THE WHEEL, a poetic 

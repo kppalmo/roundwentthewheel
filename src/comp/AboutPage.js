@@ -10,9 +10,12 @@ const Styles = styled.div `
     text-align:center;
     margin-top:1em;
     margin-bottom:1em;
+    
 }
 .txtC{
     color:#009dff;
+    font-family:Bowlby One;
+
 }
 .imgS{
     width:65%;
