@@ -8,10 +8,13 @@ import { useSpring, animated } from 'react-spring'
 const Styles = styled.div`
 font-family:Bowlby One;
 .jtron{
-    height:;
-    background: url(${wallpaper}) top; 
+    height:20vh;
+    background: url(${wallpaper}); 
+    object-fit: cover;
+    object-position:center;
+
 }
-.txtS{
+.jumbo-txtS{
     text-align:center;
     color:black;
     font-size:4vh;
@@ -23,6 +26,7 @@ font-family:Bowlby One;
     font-size:2vh;
 
 }
+
 `
 
 export const MovingJumbo = (props) => {
@@ -32,7 +36,7 @@ export const MovingJumbo = (props) => {
         <Styles>
         <animated.div style={tAnima}>
         <Jumbotron className="jtron">
-            <h4 class="txtS">{props.title}</h4>
+            <h4 class="jumbo-txtS">{props.title}</h4>
             <h5 class="capS">{props.caption}</h5>
         </Jumbotron> 
         </animated.div>
