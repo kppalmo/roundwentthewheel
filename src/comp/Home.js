@@ -112,12 +112,12 @@ export const Home = ()  => (
         <Layout>
             <Row>
                 <Col lg={true}>
-                    <a href="https://www.instagram.com/roundwentthewheel/">
+                    <a href="https://www.facebook.com/roundwentthewheel/">
                         <Image src={insta} className="socials"/>
                     </a>
                 </Col>
                 <Col lg={true}>
-                    <a href="https://www.facebook.com/roundwentthewheel/">
+                    <a href="https://www.instagram.com/roundwentthewheel/">
                         <Image src={faceB} className="socials"/>
                     </a>
                 </Col>
