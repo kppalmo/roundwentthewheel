@@ -26,7 +26,6 @@ export const Banner = props => (
     <Styles>
         <div class="cont">
             <h1 class="pagebanner-text">ROUND WENT THE WHEEL</h1>
-            <h3></h3>
         </div>
     </Styles>
 

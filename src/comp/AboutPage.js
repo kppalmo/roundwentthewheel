@@ -49,8 +49,8 @@ export const AboutPage = props => (
             <h1 className="txtS txtC">THE PAST:</h1>
             <p className="txtS">
                 CENTRAL is the world's first completely immersive virtual reality; it's the perfect illusion,
-                the perfect escape from a world of disease and violence. The problem; the network goes
-                live too fast. The system is unstable, the illusions too strong. But the MAN who controls CENTRAL
+                the perfect escape from a world of disease and violence. The problem: the network goes lives too fast. 
+                The system is unstable, the illusions too strong. But the MAN who controls CENTRAL
                 won't sacrifice everything he's built. The only person who can stop him? A BOY, his 13-year-old son.
             </p>
             <h1 className="txtS txtC">THE PRESENT:</h1>
