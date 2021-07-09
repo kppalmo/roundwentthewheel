@@ -14,6 +14,12 @@ const Styles = styled.div`
     margin-bottom:20px;
 
 }
+.checkOut-style{
+    font-family:Bowlby One;
+    margin-top:10rem;
+    text-align:center;
+    color:#009dff;
+}
 .imgStyle2{
     width:%;
     display: block;
@@ -58,6 +64,11 @@ export const Awards = props => (
                 <Image className="imgStyle2 drop-shadow" src={awa2} alt="awa1 "/>
                 <h4 class="cenTlb">2021 NEW MEDIA FILM FESTIVAL</h4>
             </a>
+            </Col>
+        </Row>
+        <Row>
+            <Col lg={true}>
+                <h1 class="checkOut-style">Check Us Out!</h1>
             </Col>
         </Row>
 
