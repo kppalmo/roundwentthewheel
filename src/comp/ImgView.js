@@ -105,7 +105,7 @@ export const ImgView = props =>(
             (*Actor appearing courtesy of Actors’ Equity Association.)" 
             text2="Oriah Elgrabli (Girl), Moira McAuliffe (Katherine), Michael Gnat* (Anton), Coltrane Gilman (Boy), and Marie Elena O’Brien* (Marta). Photo: Emily Hewitt. (*Actor appearing courtesy of Actors’ Equity Association.)"/>
             <ImgWCaption image1={IMG23} image2={endPic} 
-            text1="Coltrane Gilman (Boy) and Michael Gnat* (Anton). Photo: Emily Hewitt.
+            text1="Rafael Jordan* (David) and Marie Elena O'Brien* (Marta). Photo: Emily Hewitt.
             (*Actor appearing courtesy of Actors’ Equity Association.)" 
             text2=""/>                
                

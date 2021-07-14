@@ -61,7 +61,7 @@ export const Awards = props => (
             </a>
             </Col>
             <Col>
-            <a href="https://www.newmediafilmfestival.com/events-2/">
+            <a href="https://www.newmediafilmfestival.com/">
                 <Image className="imgStyle2 drop-shadow" src={awa2} alt="awa1 "/>
                 <h4 class="cenTlb">2021 NEW MEDIA FILM FESTIVAL</h4>
             </a>
