@@ -32,8 +32,8 @@ function NavigationBar () {
                         <Nav className="ml-auto   ">
                             <Nav.Item ><Nav.Link href="/" >Home</Nav.Link></Nav.Item>
                             <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
-                            <Nav.Item><Nav.Link href="/cast">Cast</Nav.Link></Nav.Item>
-                            <Nav.Item><Nav.Link href="/CreativeTeam">Creative Team</Nav.Link></Nav.Item>
+                            <Nav.Item><Nav.Link href="/cast">BBTF Cast</Nav.Link></Nav.Item>
+                            <Nav.Item><Nav.Link href="/CreativeTeam">BBTF Creative Team</Nav.Link></Nav.Item>
                             <Nav.Item><Nav.Link href="/Photos">Photos</Nav.Link></Nav.Item>
                     </Nav>
                     
