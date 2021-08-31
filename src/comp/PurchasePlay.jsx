@@ -37,7 +37,7 @@ export const PurchasePlay = () => {
           </Col>
           <Col lg={true}>
             <h2 className="hdr-txt">
-              ROUND WENT THE WHEEL is now available for purchase of licensing
+              ROUND WENT THE WHEEL is now available for purchase or licensing
               exclusively through Next Stage Press.
             </h2>
             <a href="https://nextstagepress.net/round-went-the-wheel/">
