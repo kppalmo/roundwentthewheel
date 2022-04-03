@@ -40,7 +40,7 @@ export const PurchasePlay = () => {
               ROUND WENT THE WHEEL is now available for purchase or licensing
               exclusively through Next Stage Press.
             </h2>
-            <a href="https://nextstagepress.net/round-went-the-wheel/">
+            <a href="https://nextstagepress.wpengine.com/round-went-the-wheel/">
               <button type="button" class="purchase-info-btn btn btn-primary">
                 Learn More!
               </button>
